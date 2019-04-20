@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+header{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+h1.hedertitle{
+    width: 1100px;
+    margin: 0 auto;
+    color: white;
+}
+
+span{
+    color: aqua;
+}
+
+ul.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin-right: 100px;
+}
+
+li.details{
+    list-style: none;
+    width: 70px;
+}
+
+a{   
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li.details-sklep{
+    position: relative;
+    list-style: none;
+    width: 80px;
+    color: white;
+}
+
+li.details-o-firmie{
+    position: relative;
+    width: 100px;
+    list-style: none;
+    color: white;
+}
+
+li.details-kontakt{
+    position: relative;
+    width: 100px;
+    list-style: none;
+    color: white;
+}
+
+ul.dropdown{
+    font-size: 20px;
+    position: absolute;
+    top: 160%;
+    width: 126px;
+    height: 100px;
+    right: -11px;
+    background: black;
+    display: none;
+}
+
+li.dropdetails{
+    margin-top: 6px;
+    text-align: center;
+    color: white;
+    list-style: none;
+}
+
+ul.details-sklep{
+    position: absolute;
+}
+
+ul.details-o-firmie{
+    position: absolute;
+}
+
+ul.details-kontakt{
+    position: absolute;
+}
+
+ul.details-o-firmie:hover ul.dropdown{
+    display: block;
+}
+
+ul.details-kontakt:hover ul.dropdown{
+    display: block;
+}
+
+li.details-sklep:hover ul.dropdown{
+    display: block;
+}
+
+div.foto{
+
+    background: linear-gradient(0deg, rgba(208,208,208,1) 21%, rgba(255,255,255,1) 55%);
+    width: 1100px;
+    height: 450px;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+div.image{
+    background: url(../images/black_chair.png);
+    width: 470px;
+    height: 337px;
+}
+
+
+h1.main-header-on-foto{
+    font-size: 45px;
+    padding-right: 220px;
+    text-align: center;
+    margin: 10px;
+}
+
+div.nextfoto{
+    background: linear-gradient(0deg, rgba(208,208,208,1) 21%, rgba(255,255,255,1) 55%);
+    width: 100%;
+}
+
+p.text-on-header-on-foto{
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 426px;
+    margin-top: 12px;
+    font-weight: 100px;
+}
+
+div.button{
+    font-weight: 100;
+    display: block;
+    background: aqua;
+    border-radius: 5px;
+    width: 230px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 15px;
+    color: white;
+}
+
+div.foto-side{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.margin-for-box{
+    margin-right: 55px;
+}
+
+div.picture1{
+    background: url("../images/box1_img.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+}
+
+div.picture2{
+    background: url("../images/box2_img.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+}
+
+div.picture3{
+    border: 1px solid black;
+    width: 350px;
+    height: 250px;
+}
+
+.text-foto{
+    width: 100%;
+    height: 50px;
+    background: rgba(255,255,255,0.5);
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+p.text-in-img{
+    margin-left: -100px;
+    margin-top: 7px; 
+    display: flex;
+}
+
+div.box-picture{
+    position: relative;
+    right: 35px;
+    background: aqua;
+    margin-top: 28px;
+    margin-right: 28px;
+    width: 140px;
+    height: 10px;
+}
+
+/* div.setting-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+p.text-image{
+
+}
+
+div.picture3 > h1.img-heder{
+    margin: 15px;  
+}
+
+div.picture3 > p.text-image{
+    margin: 15px;
+}
+
+h1.img-heder{
+    font-size: 20px;
+    width: 315px;
+    height: 50px;
+}
+
+div.border-for-picture3{
+    position: relative;
+    top: 2px;
+    border: 1px solid aqua;
+    background: aqua;
+    height: 10px;
+    width: 140px;
+}
+
+div.border-choose-background{
+    background: rgb(242, 242, 242);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;   
+}
+
+div.border-choose1{
+    border: 1px solid grey;
+    background: white;
+    width: 350px;
+    height: 450px; 
+}
+
+div.border-choose2{
+    border: 1px solid grey;
+    background: aqua;
+    width: 350px;
+    height: 450px;
+}
+
+div.border-choose3{
+    border: 1px solid grey;
+    background: white;
+    width: 350px;
+    height: 450px;
+}
+
+.margin-for-box-choose{
+    margin-right: 55px;
+}
+
+div.info1{
+    background: rgb(220,220,220);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+div.info2{  
+    background: rgb(230, 230, 230);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.border-choose1 div.button1{
+    background: aqua;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 30px;
+    margin-top: 105px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.border-choose2 div.button1{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 30px;
+    margin-top: 105px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.titlebasic{
+    text-align: center;
+    color: aqua;
+    font-size: 25px;
+}
+
+div.border-choose2 > p.titlebasic{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+p.option-in-button1{
+    color: white;
+}
+
+div.border-choose2 p.option-in-button1{
+    color: aqua;
+}
+
+div.price{
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+div.price > p.name-of-price{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(169,169,169);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p.name-of-kind{
+    text-align: center;
+}
+
+sup{
+    font-size: 12px;
+}
+
+p.tekst-in-info{
+    font-size: 20px;
+    color: rgb(169,169,169);
+}
+
+p.name-of-kind{
+    color: rgb(169,169,169);
+}
+
+.border-choose1::before{
+    content: '';
+    position: relative;
+    top: -40px;
+    display: block;
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: -35px;
+}
+
+.border-choose2::before{
+    content: '';
+    position: relative;
+    top: -40px;
+    display: block;
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: -35px;
+}
+
+div.small-option{
+    content: '';
+    position: relative;
+    top: -45px;
+    display: block;
+    border: 1px solid grey;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: grey;
+}
+
+
+
+
+
+
+
