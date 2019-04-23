@@ -338,6 +338,20 @@ div.border-choose2 div.button1{
     align-items: center;
 }
 
+div.border-choose3 div.button1{
+    background: aqua;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 30px;
+    margin-top: 105px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 p.titlebasic{
     text-align: center;
     color: aqua;
@@ -420,6 +434,20 @@ p.name-of-kind{
     margin-bottom: -35px;
 }
 
+.border-choose3::before{
+    content: '';
+    position: relative;
+    top: -40px;
+    display: block;
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: -35px;
+}
+
 div.small-option{
     content: '';
     position: relative;
@@ -433,7 +461,77 @@ div.small-option{
     background: grey;
 }
 
+div.border-form{
+    background: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+form.contact-form{
+    width: 670px;
+}
+
+label.tekst-in-form{
+    
+}
+
+input.tekst-for-user{
+    margin-top: 20px;
+    height: 45px;
+}
+
+textarea.message{
+    margin-top: 20px;
+}
+
+div.photo-in-form{
+    background: url("../images/red_chair.png");
+    width: 264px;
+    height: 210px;
+    background-size: cover;
+    margin-bottom: 110px;   
+    margin-left: 35px;
+}
+
+div.send-button{
+    background: aqua;
+    width: 100px;
+    height: 65px;
+}
+
+div.send-button{
+    margin-top: 230px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.check-box{
+  
+}
+
+input.tekst-for-user{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+textarea.message{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
 
 
 
