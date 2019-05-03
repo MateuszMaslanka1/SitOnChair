@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Cabin', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -16,13 +17,13 @@ header{
 }
 
 h1.hedertitle{
-    width: 1100px;
+    width: 780px;
     margin: 0 auto;
     color: white;
 }
 
 span{
-    color: aqua;
+    color: #128C7E;
 }
 
 ul.option{
@@ -68,10 +69,10 @@ li.details-kontakt{
 ul.dropdown{
     font-size: 20px;
     position: absolute;
-    top: 160%;
+    top: 232%;
     width: 126px;
-    height: 100px;
-    right: -11px;
+    height: 110px;
+    right: -15px;
     background: black;
     display: none;
 }
@@ -119,6 +120,19 @@ div.foto{
     margin: 0 auto;
 }
 
+
+.tringle-for-slider{
+    display: block;
+    position: relative;
+    bottom: 10px;
+    left: 52px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+  }
+
 div.image{
     background: url(../images/black_chair.png);
     width: 470px;
@@ -138,6 +152,11 @@ div.nextfoto{
     width: 100%;
 }
 
+div.next-previous{
+    font-size: 65px;
+    color: #128C7E;
+}
+
 p.text-on-header-on-foto{
     text-align: center;
     font-size: 12px;
@@ -150,7 +169,7 @@ p.text-on-header-on-foto{
 div.button{
     font-weight: 100;
     display: block;
-    background: aqua;
+    background: #128C7E;
     border-radius: 5px;
     width: 230px;
     padding: 10px;
@@ -209,20 +228,37 @@ div.picture3{
 }
 
 p.text-in-img{
-    margin-left: -100px;
+    margin-left: -70px;    
+    margin-top: 7px; 
+    display: flex;
+}
+
+p.text-in-img2{
+    margin-left: -30px;    
     margin-top: 7px; 
     display: flex;
 }
 
 div.box-picture{
     position: relative;
-    right: 35px;
-    background: aqua;
+    right: 80px;
+    background: #128C7E;
     margin-top: 28px;
     margin-right: 28px;
     width: 140px;
     height: 10px;
 }
+
+div.box-picture2{
+    position: relative;
+    right: 122px;
+    background: #128C7E;
+    margin-top: 28px;
+    margin-right: 28px;
+    width: 140px;
+    height: 10px;
+}
+
 
 /* div.setting-text{
     width: 100%;
@@ -252,8 +288,8 @@ h1.img-heder{
 div.border-for-picture3{
     position: relative;
     top: 2px;
-    border: 1px solid aqua;
-    background: aqua;
+    border: 1px solid #128C7E;
+    background: #128C7E;
     height: 10px;
     width: 140px;
 }
@@ -277,7 +313,7 @@ div.border-choose1{
 
 div.border-choose2{
     border: 1px solid grey;
-    background: aqua;
+    background: #128C7E;
     width: 350px;
     height: 450px;
 }
@@ -303,6 +339,16 @@ div.info1{
     margin-top: 35px;
 }
 
+div.info1second{
+    background: white;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
 div.info2{  
     background: rgb(230, 230, 230);
     width: 100%;
@@ -312,8 +358,26 @@ div.info2{
     justify-content: center;
 }
 
+div.info2second{  
+    background: white;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.info2third{  
+    background: rgb(220, 220, 220);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 div.border-choose1 div.button1{
-    background: aqua;
+    background: #128C7E;
     display: block;
     margin: 0 auto;
     width: 150px;
@@ -331,7 +395,7 @@ div.border-choose2 div.button1{
     margin: 0 auto;
     width: 150px;
     height: 30px;
-    margin-top: 105px;
+    margin-top: 75px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -339,12 +403,12 @@ div.border-choose2 div.button1{
 }
 
 div.border-choose3 div.button1{
-    background: aqua;
+    background: #128C7E;
     display: block;
     margin: 0 auto;
     width: 150px;
     height: 30px;
-    margin-top: 105px;
+    margin-top: 46px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -354,7 +418,7 @@ div.border-choose3 div.button1{
 
 p.titlebasic{
     text-align: center;
-    color: aqua;
+    color: #128C7E;
     font-size: 25px;
 }
 
@@ -369,7 +433,7 @@ p.option-in-button1{
 }
 
 div.border-choose2 p.option-in-button1{
-    color: aqua;
+    color: #128C7E;
 }
 
 div.price{
@@ -379,6 +443,7 @@ div.price{
     margin: 0 auto;
     border-radius: 50%;
     margin-top: 30px;
+    background: white;
 }
 
 div.price > p.name-of-price{
@@ -401,6 +466,7 @@ p.tekst-in-info{
     font-size: 20px;
     color: rgb(169,169,169);
 }
+
 
 p.name-of-kind{
     color: rgb(169,169,169);
@@ -471,7 +537,8 @@ div.border-form{
 }
 
 form.contact-form{
-    width: 670px;
+    width: 600px;
+    margin-right: 110px;
 }
 
 label.tekst-in-form{
@@ -481,29 +548,40 @@ label.tekst-in-form{
 input.tekst-for-user{
     margin-top: 20px;
     height: 45px;
+    margin-left: -130px;
+}
+
+input.tekst-for-user::-webkit-input-placeholder{
+    font-size: 20px;
 }
 
 textarea.message{
     margin-top: 20px;
+    margin-left: -130px;
 }
+
+textarea.message::-webkit-input-placeholder{
+    font-size: 25px;
+}
+
 
 div.photo-in-form{
     background: url("../images/red_chair.png");
     width: 264px;
     height: 210px;
     background-size: cover;
-    margin-bottom: 110px;   
-    margin-left: 35px;
+    margin-bottom: 115px;   
+    margin-left: -80px;
 }
 
 div.send-button{
-    background: aqua;
+    background: #128C7E;
     width: 100px;
     height: 65px;
 }
 
 div.send-button{
-    margin-top: 230px;
+    margin-top: -40px;
     width: 100%;
     border-radius: 5px;
     display: flex;
@@ -511,14 +589,26 @@ div.send-button{
     justify-content: center;
 }
 
-input.check-box{
-  
+.check{
+  background-image: url("../images/form_ok.jpg");
+  background-size: cover;
+  background-position: center; 
+  width: 50px;
+  height: 50px;
+  margin-top: 219px;
+}
+
+.bordercheck{
+    border: 1px solid #128C7E;
+    width: 50px;
+    height: 50px;
+    margin-top: -52px;
 }
 
 input.tekst-for-user{
-    width: 100%;
+    width: 700px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #128C7E;
     border-radius: 4px;
     padding-left: 10px;
     box-sizing: border-box;
@@ -526,13 +616,85 @@ input.tekst-for-user{
 
 textarea.message{
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #128C7E;
     border-radius: 4px;
-    width: 100%;
+    width: 700px;
     padding-left: 10px;
     box-sizing: border-box;
+    height: 225px;
 }
 
+.check-text{
+    margin-top: 20px;
+}
+
+div.border-for-main-text{
+    position: relative;
+    top: 50px;
+    left: 139px;
+    width: 350px;
+    height: 10px;
+    background: #128C7E;
+}
+
+p.price-list{
+    position: relative;
+    top: 50px;
+    left: 142px;
+}
+
+.concact-border{
+    position: relative;
+    top: 79px;
+    left: 142px;
+    width: 350px;
+    height: 10px;
+    background: #128C7E;
+}
+
+.contact-text{
+    position: relative;
+    top: 79px;
+    left: 145px;
+    width: 350px;
+
+}
+
+p.check-text{
+    position: relative;
+    top: -65px;
+    left: 65px;
+}
+
+p.send-tekst{
+    color: white;
+    font-size: 25px;
+}
+
+div.finish{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+p.finish-sentens{
+    color: rgb(169,169,169);
+    margin-right: 515px;
+    margin-left: -96px;
+}
+
+.icon{
+    padding-right: 20px;
+}
+
+.finish-text{
+    color: rgb(169,169,169);
+    margin-right: 10px;
+    margin-left: 50px;
+}
 
 
 
