@@ -133,12 +133,26 @@ div.foto{
     border-bottom: 10px solid black;
   }
 
-div.image{
+/* div.image{
     background: url(../images/black_chair.png);
     width: 470px;
     height: 337px;
 }
 
+div.image2{
+    background: url(../images/orange_chair.png);
+    display: none;
+    width: 470px;
+    height: 337px;
+} */
+
+li.li_images{
+    list-style: none;
+}
+
+li.li_images:nth-of-type(2){
+    display: none;
+}
 
 h1.main-header-on-foto{
     font-size: 45px;
@@ -152,7 +166,12 @@ div.nextfoto{
     width: 100%;
 }
 
-div.next-previous{
+div.next{
+    font-size: 65px;
+    color: #128C7E;
+}
+
+div.previous{
     font-size: 65px;
     color: #128C7E;
 }
