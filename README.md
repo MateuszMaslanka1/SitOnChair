@@ -1,4 +1,5 @@
 # SitOnChair
 Stron sklepu meblowego wykonan przy urzyciu HTML i CSS
 
-![alt text](https://github.com/MateuszMaslanka1/SitOnChair/issues/2#issue-451534209)
+<img width="1440" alt="Zrzut ekranu 2019-06-3 o 16 32 06" src="https://user-images.githubusercontent.com/46002919/58812068-59ca8c80-8621-11e9-882f-072654fde630.png">
+
